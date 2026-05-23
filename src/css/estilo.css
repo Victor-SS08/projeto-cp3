@@ -2,7 +2,7 @@
     --color1: #ffffff;
     --color2: #1a1a1a;
     --color3: #000000;
-    --color4: #a3004c;
+    --color4: #9b3434;
     --color5: #ffcc00;
     --colorlinear: linear-gradient(135deg, #ff0000, #700022);
     --fontfamily: "Segoe UI", Arial, sans-serif;
@@ -86,7 +86,7 @@ header nav ul li a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, #1a0008, #350010, #700022);
+    background: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -240,6 +240,7 @@ header nav ul li a:hover {
     padding: 20px 40px 40px;
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .produto-card {
@@ -330,7 +331,7 @@ header nav ul li a:hover {
 /* PROMOÇÕES */
 .promo-section {
     background: linear-gradient(135deg, #350010, #1a0008);
-    padding: 50px 40px;
+    padding: 20px 40px;
     text-align: center;
     border-top: 2px solid var(--color4);
     border-bottom: 2px solid var(--color4);
@@ -342,75 +343,28 @@ header nav ul li a:hover {
     color: var(--color5);
     margin-bottom: 10px;
 }
-
+.promo-section .promo-mascot{
+    background-repeat: repeat-x;
+}
 .promo-section p {
     color: #ccc;
     font-size: 1rem;
-    margin-bottom: 25px;
+    margin-bottom: 12px;
+
 }
 
 .promo-badge {
     display: inline-block;
     background: var(--colorlinear);
-    color: white;
+    color: var(--color5);
     font-size: 1.6rem;
     font-weight: 700;
-    padding: 15px 45px;
-    border-radius: 50px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin:10px;
 }
 
-/* TABELA DE PREÇOS */
-.tabela-section {
-    padding: 50px 20px;
-    max-width: 950px;
-    margin: 0 auto;
-}
 
-.tabela-section h2 {
-    text-align: center;
-    font-size: 2rem;
-    color: var(--color5);
-    margin-bottom: 30px;
-}
-
-.tabela-precos {
-    width: 100%;
-    border-collapse: collapse;
-    background: #2a0010;
-    border-radius: var(--radius);
-    overflow: hidden;
-    box-shadow: var(--shadow);
-}
-
-.tabela-precos th {
-    background: var(--color3);
-    color: var(--color5);
-    padding: 15px;
-    font-size: 1.1rem;
-    text-align: center;
-}
-
-.tabela-precos td {
-    padding: 13px 15px;
-    text-align: center;
-    color: var(--color1);
-    border-bottom: 1px solid #3a0015;
-    font-size: 0.95rem;
-}
-
-.tabela-precos tr:last-child td {
-    border-bottom: none;
-    font-weight: 700;
-    font-size: 1.15rem;
-    color: var(--color5);
-}
-
-.tabela-precos tbody tr:hover td {
-    background: rgba(163, 0, 76, 0.15);
-}
-
-.check { color: #4caf50; font-weight: 700; }
-.cross { color: #555; }
 
 /* SOBRE */
 .sobre-hero {
@@ -651,7 +605,7 @@ header nav ul li a:hover {
 
 /* FOOTER */
 footer {
-    background: #0d0006;
+    background: #440000;
     border-top: 3px solid var(--color3);
     padding: 50px 40px 20px;
     margin-top: 60px;
@@ -719,7 +673,7 @@ margin-top: 5.5px;
 
 .footer-copy {
     text-align: center;
-    color: #555;
+    color: #646464;
     font-size: 0.85rem;
     padding-top: 20px;
     border-top: 1px solid #2a0010;

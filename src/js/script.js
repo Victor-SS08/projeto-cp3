@@ -20,19 +20,23 @@ window.onload = function () {
 };
 
 const produtos = [
-    { nome: "Ração Premium Dog", preco: 89.90, precoOriginal: 120.00, emPromocao: true, descricao: "Nutrição completa para cães adultos" },
-    { nome: "Ração Premium Cat", preco: 75.00, precoOriginal: null, emPromocao: false, descricao: "Fórmula especial para gatos" },
-    { nome: "Brinquedo Interativo", preco: 49.90, precoOriginal: 80.00, emPromocao: true, descricao: "Estimula o instinto natural do pet" },
-    { nome: "Cama Pet Luxo", preco: 199.00, precoOriginal: null, emPromocao: false, descricao: "Conforto máximo para seu pet descansar" },
-    { nome: "Coleira LED", preco: 35.00, precoOriginal: 55.00, emPromocao: true, descricao: "Segurança e estilo nas noites de passeio" },
-    { nome: "Arranhador para Gatos", preco: 120.00, precoOriginal: null, emPromocao: false, descricao: "Protege seus móveis com estilo felino" },
+    { nome: "Moto Bug 1.0", preco: 329.90, precoOriginal: 550.00, emPromocao: true, descricao: "Tão leal quanto destrutivo" },
+    { nome: "Anéis (20 unidades)", preco: 75.00, precoOriginal: null, emPromocao: false, descricao: "Extraidos diretamente do inimigo" },
+    { nome: "Action-figure Eggman Articulada", preco: 49.90, precoOriginal: 80.00, emPromocao: true, descricao: "O mais incrível gênio, agora em brinquedo" },
+    { nome: "Maquete montável Death Egg", preco: 199.00, precoOriginal: null, emPromocao: true, descricao: "Com armas capazes de destruição de verdade!" },
+    { nome: "Maquete montável Colônia Espacial ARK", preco: 199.00, precoOriginal: null, emPromocao: true, descricao: "Como nos velhos tempos..." },
+    { nome: "Miniatura Egg Pawn Articulada", preco: 150.00, precoOriginal: 220.00, emPromocao: true, descricao: "O soldado descartável favorito do Doutor" },
+    { nome: "Buzz Bomber 2.0 Retrô", preco: 400, precoOriginal: 650.00, emPromocao: true, descricao: "Edição Limitada que solta lasers de mais de 2000°C" },
+    { nome: "Death Egg Robot MK2", preco: 100000, precoOriginal: null, emPromocao: false, descricao: "Réplica identica até nos mínimos detalhes (Requer permissão do Império para uso pessoal)" },
+    { nome: "Estátua Doutor Ivo 'Eggman' Robotnik", preco: 12000, precoOriginal: null, emPromocao: false, descricao: "Feita de pedra extraída do Sky Sanctuary, imperdível para fãs do Doutor" },
+    { nome: "EggMobile", preco: 45000, precoOriginal: 50000, emPromocao: true, descricao: "O original, usado nas primeiras batalhas com o ouriço (CNH não inclusa)" },
 ];
 
 function renderProdutos(container) {
     container.innerHTML = produtos.map(item => `
         <div class="produto-card">
             ${item.emPromocao ? '<span class="badge-promo">PROMOÇÃO</span>' : ''}
-            <img src="../assets/img.png" alt="${item.nome}">
+            <img src="../assets/placeholder.png" alt="${item.nome}">
             <div class="card-content">
                 <h3>${item.nome}</h3>
                 <p>${item.descricao}</p>
