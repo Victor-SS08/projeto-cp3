@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com a FIAPet. Envie sua mensagem, dúvida ou sugestão pelo nosso formulário.">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Contato — FIAPet</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo-titulo">
+            <img src="../assets/logo.png" alt="Logo FIAPet" id="logo">
+            <span>FIAPet</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="./portfolio.html">Produtos</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contato-section">
+            <h1>Fale Conosco</h1>
+            <p class="subtitulo">Tem alguma dúvida ou sugestão? Manda uma mensagem pra gente!</p>
+
+            <form class="form-contato" id="form-contato" novalidate>
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="descricao">Mensagem</label>
+                    <textarea id="descricao" name="descricao" placeholder="Escreva sua mensagem aqui..."></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+                <p id="form-msg" class="form-msg"></p>
+            </form>
+        </section>
+
+        <div class="contato-info">
+            <div class="info-card">
+                <div class="icon">📞</div>
+                <h3>Telefone</h3>
+                <p>(11) 9 9999-9999</p>
+            </div>
+            <div class="info-card">
+                <div class="icon">✉️</div>
+                <h3>E-mail</h3>
+                <p>contato@fiapet.com.br</p>
+            </div>
+            <div class="info-card">
+                <div class="icon">📍</div>
+                <h3>Endereço</h3>
+                <p>São Paulo, SP</p>
+            </div>
+            <div class="info-card">
+                <div class="icon">🕐</div>
+                <h3>Horário</h3>
+                <p>Seg–Sex: 9h–18h</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>FIAPet</h4>
+                <p>A loja completa para o seu melhor amigo.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <p>📞 (11) 9 9999-9999</p>
+                <a href="mailto:contato@fiapet.com.br">✉️ contato@fiapet.com.br</a>
+                <p>📍 São Paulo, SP</p>
+            </div>
+            <div class="footer-col">
+                <h4>Links</h4>
+                <a href="../../index.html">Home</a>
+                <a href="./portfolio.html">Produtos</a>
+                <a href="./sobre.html">Sobre</a>
+                <a href="./contato.html">Contato</a>
+            </div>
+            <div class="footer-col">
+                <h4>Redes Sociais</h4>
+                <div class="footer-social">
+                    <a href="#" class="social-link" title="Instagram">📷</a>
+                    <a href="#" class="social-link" title="Facebook">📘</a>
+                    <a href="#" class="social-link" title="WhatsApp">💬</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy">
+            &copy; 2026 Loja FIAPet — Todos os direitos reservados
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
