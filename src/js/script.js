@@ -1,8 +1,8 @@
+
 window.onload = function () {
     const intro = document.getElementById("inicio");
     const content = document.getElementById("content");
-    const myAudio = document.getElementById("audio");
-      audio.volume = 0.2;
+
     if (intro) {
         setTimeout(() => {
             intro.classList.add("efeito-out");
@@ -78,3 +78,7 @@ function validarFormulario(e) {
     msg.className = "form-msg sucesso";
     e.target.reset();
 }
+/*CONTROLE DE VOLUME DO AUDIO DO HERO*/
+const audiovol = document.getElementById("audio");
+audiovol.volume = 0.2; 
+

@@ -1,0 +1,13 @@
+CHECKPOINT 3 - FRONT/WEB - 1ESPG-26
+FIAP - ENGENHARIA DE SOFTWARE
+Professor: Wellington Cidade Silva
+
+======================================
+Feito por Victor Souto
+======================================
+
+======================================
+TEMA: Loja Gamer - Robotnik Store
+======================================
+
+Link do Github Pages: https://victor-ss08.github.io/projeto-cp3/
