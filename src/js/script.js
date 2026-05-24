@@ -2,6 +2,7 @@
 window.onload = function () {
     const intro = document.getElementById("inicio");
     const content = document.getElementById("content");
+    const audio = document.getElementById("audio;");
 
     if (intro) {
         setTimeout(() => {
