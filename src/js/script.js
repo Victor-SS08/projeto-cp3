@@ -73,7 +73,7 @@ function validarFormulario(e) {
         return;
     }
 
-    msg.textContent = `Mensagem enviada com sucesso! Obrigado, ${nome}!`;
+    msg.textContent = `Mensagem desconsiderada com sucesso! Obrigado, ${nome}!`;
     msg.className = "form-msg sucesso";
     e.target.reset();
 }
