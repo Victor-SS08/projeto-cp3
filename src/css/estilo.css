@@ -223,7 +223,7 @@ header nav ul li a:hover {
 .main-portfolio{
     background-image: url(../assets/fundo02.jpg);
     background-position: auto;
-    background-size: 120%;
+    background-size: cover;
     
 }
 
@@ -251,7 +251,7 @@ header nav ul li a:hover {
 
 .produto-card {
     background: #2a0010;
-    border: 2px solid var(--color3);
+    border: 2px solid var(--color1);
     border-radius: var(--radius);
     overflow: hidden;
     transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
@@ -375,11 +375,10 @@ header nav ul li a:hover {
 /* SOBRE */
 .main-sobre{
     background-image: url(../assets/fundo02.jpg);
-    background-position: auto;
-    background-size: 85%;
+    background-size: cover;
 }
 .sobre-hero {
-    background: linear-gradient(180deg, #2a0010 0%, var(--color2) 100%);
+    
     padding: 70px 30px;
     text-align: center;
 }
@@ -495,6 +494,7 @@ header nav ul li a:hover {
 .contato-main{
     background-image: url(../assets/fundo.png);
     background-position: center;
+    background-size: cover;
 }
 .form-contato {
     background: #2a0010;
