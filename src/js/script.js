@@ -80,5 +80,5 @@ function validarFormulario(e) {
 }
 /*CONTROLE DE VOLUME DO AUDIO DO HERO*/
 const audiovol = document.getElementById("audio");
-audiovol.volume = 0.2; 
+audiovol.volume = 0.1; 
 
