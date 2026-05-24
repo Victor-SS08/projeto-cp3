@@ -1,7 +1,8 @@
 window.onload = function () {
     const intro = document.getElementById("inicio");
     const content = document.getElementById("content");
-
+    const myAudio = document.getElementById("audio");
+      audio.volume = 0.2;
     if (intro) {
         setTimeout(() => {
             intro.classList.add("efeito-out");
