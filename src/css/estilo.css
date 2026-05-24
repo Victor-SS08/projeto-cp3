@@ -4,6 +4,7 @@
     --color3: #000000;
     --color4: #be1d1d;
     --color5: #ffcc00;
+    --color6: #3b0000;
     --colorlinear: linear-gradient(135deg, #ff0000, #700022);
     --fontfamily: "Segoe UI", Arial, sans-serif;
     --radius: 10px;
@@ -433,7 +434,7 @@ header nav ul li a:hover {
 }
 
 .valor-card {
-    background: #2a0000;
+    background: var(--color6);
     border: 2px solid var(--color3);
     border-radius: var(--radius);
     padding: 25px;
@@ -497,7 +498,7 @@ header nav ul li a:hover {
     background-size: cover;
 }
 .form-contato {
-    background: #2a0010;
+    background: var(--color6);
     border: 2px solid var(--color3);
     border-radius: var(--radius);
     padding: 40px;
@@ -594,7 +595,7 @@ header nav ul li a:hover {
 }
 
 .info-card {
-    background: #2a0010;
+    background: var(--color6);
     border: 2px solid var(--color3);
     border-radius: var(--radius);
     
